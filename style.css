@@ -1,0 +1,47 @@
+.header {
+ border: 2px solid black;
+ background-color: black;
+ font-weight: 900;
+ color: white;
+}
+
+.header a{
+ text-decoration: none;
+ color: white;
+}
+
+.main {
+ height: 750px;
+ background: url(img/main.png) no-repeat;
+ background-size: cover;
+}
+
+.video iframe {
+ margin-top: 60px;
+ border: 10px double black;
+}
+
+footer {
+ border: 2px solid black;
+ padding: 15px;
+}
+
+@media (max-width: 575px) {
+  .video iframe {
+  margin-top: 500px;
+  width: 300px;
+  heigth: 130px;
+ }
+}
+
+@media (max-width: 767px) {
+  .video iframe {
+  margin-top: 500px;
+ }
+}
+
+@media (max-width: 991px) {
+  .video iframe {
+  margin-top: 500px;
+ }
+}
